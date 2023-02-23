@@ -1,0 +1,40 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#topbar {
+     height: 40px;
+     background-color: #191919;
+    align-items: center;  
+    
+}
+
+
+#social-icons {
+    padding-left: 375px;
+     padding-right: 652px;
+
+}
+
+#side-icons {
+
+  
+    padding-right: 376px; 
+    float: right; 
+    position: relative;
+    top: -31px;
+  
+    font-size: small;
+}
+
+body {
+    margin: 0;
+}
+
+.header-icons {
+    color: #6c6c6c;
+    padding-top: 13.00px;
+    display: flex;
+    gap: 15px;
+}
+

@@ -54,3 +54,35 @@ body {
     display: flex;
     align-items: center;
 }
+.main-header{
+    height: 900px;
+}
+/* .material-symbols-outlined{
+    color: #ffffff;
+} */
+.arrow-icons{
+    color: #ffffff;
+
+}
+.middle-heading{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+}
+.pasco{
+    font-family: 'Open Sans', sans-serif;
+     font-weight: 600; 
+    color: #ffffff ;
+}
+.navbar{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}

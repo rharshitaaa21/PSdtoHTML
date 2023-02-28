@@ -4,6 +4,27 @@
     display: flex;
 
 }
+.account-circle{
+    font-size: 19px;
+}
+
+.sign-in-icon{
+    font-size: 12px;
+    margin-right: 17px;
+}
+.language-icon{
+    font-size: 19px;
+    margin-right: 7px;
+}
+.eng-icon{
+    margin-left: -6px;
+    font-size: 11px;
+    margin-top: 2px;
+}
+.expand-more-icon{
+    font-size: 19px;
+    margin-right: -5px;
+}
 
 font {
     font-family: 'Montserrat', sans-serif;
@@ -24,16 +45,13 @@ font {
 .vertical-line {
     border-left: 1px solid #6c6c6c;
     height: 20px;
-    position: relative;
-    top: 1px;
-    left: -2px;
-
+    margin-right: 13px;
+    margin-top: 2px;
 }
 
 .social-icons {
     float: left;
     font-size: 17px;
-
     color: #6c6c6c;
     display: flex;
     gap: 14.5px;
@@ -58,24 +76,16 @@ i.material-icons {
 body {
     margin: 0;
 }
-
-
-
 .left-material {
     display: flex;
     align-items: center;
     left: 4px;
-
-
 }
 
 .right-material {
     display: flex;
-    position: relative;
-    left: 5px;
     align-items: center;
     font-weight: 400;
-
 }
 
 .main-header {
@@ -85,7 +95,6 @@ body {
 .arrow-left {
     color: #ffffff;
     float: left;
-
 }
 
 .arrow-right {

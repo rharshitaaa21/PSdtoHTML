@@ -5,7 +5,6 @@
 
 }
 
-
 font {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -14,7 +13,7 @@ font {
 
 .topbar {
     align-items: center;
-    width: 1180px;
+    width: 1170px;
     background-color: #191919;
     justify-content: space-between;
     display: flex;
@@ -26,7 +25,8 @@ font {
     border-left: 1px solid #6c6c6c;
     height: 20px;
     position: relative;
-    left: -5px;
+    left: -1px;
+    top: 1px;
   justify-content: space-between;
 }
 
@@ -42,11 +42,11 @@ font {
 }
 
 .navbar-right-icons{
-    width: 173px;
+   
      font-family: 'Montserrat', sans-serif;
 justify-content: space-between;
 color: #6c6c6c;
-float: right;
+
 display: flex;
 }
 
@@ -70,7 +70,6 @@ body {
 .left-material{
     display: flex;
     align-items: center;
-    width: 84px;
     left: 4px;
 
 
@@ -81,7 +80,7 @@ body {
     left: 5px;
     align-items: center;
     font-weight: 400;
-    width: 77px;
+   
 }
 
 .main-header {

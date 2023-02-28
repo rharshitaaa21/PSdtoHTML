@@ -1,38 +1,53 @@
+.centeral-header {
+    justify-content: center;
+    background-color: #191919;
+    display: flex;
+
+}
+
+
 font {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Playfair Display', serif;
 }
 
-#topbar {
+.topbar {
     align-items: center;
+    width: 1180px;
     background-color: #191919;
     justify-content: space-between;
-    align-items: center;
     display: flex;
     height: 40px;
 
 }
 
 .vertical-line {
-    /* display: inline; */
     border-left: 1px solid #6c6c6c;
-    /* margin: 0 10px; */
-    height: 21px;
+    height: 20px;
+    position: relative;
+    left: -5px;
+  justify-content: space-between;
 }
 
 #social-icons {
-    padding-left: 375px;
-    font-size: 16px;
+    float: left;
+    font-size: 16.00px;
+    gap: 14.5px;
+    width: 219px;
+    color: #6c6c6c;
+    display: flex;
+    gap: 15px;
 
 }
 
-#side-icons {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    margin-right: 376px;
-    display: flex;
-    align-items: center;
+.navbar-right-icons{
+    width: 173px;
+     font-family: 'Montserrat', sans-serif;
+justify-content: space-between;
+color: #6c6c6c;
+float: right;
+display: flex;
 }
 
 i.material-icons {
@@ -50,39 +65,86 @@ body {
     gap: 15px;
 }
 
-.right-material{
+
+
+.left-material{
     display: flex;
     align-items: center;
+    width: 84px;
+    left: 4px;
+
+
+} 
+.right-material {
+    display: flex;
+    position: relative;
+    left: 5px;
+    align-items: center;
+    font-weight: 400;
+    width: 77px;
 }
-.main-header{
+
+.main-header {
     height: 900px;
 }
-/* .material-symbols-outlined{
+
+.arrow-left {
     color: #ffffff;
-} */
-.arrow-icons{
-    color: #ffffff;
+    float: left;
 
 }
-.middle-heading{
+
+.arrow-right {
+    color: #ffffff;
+    float: right;
+
+}
+
+.middle-heading {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
     font-size: 35px;
 }
-.pasco{
+
+.pasco {
     font-family: 'Open Sans', sans-serif;
-     font-weight: 600; 
-    color: #ffffff ;
+    font-weight: 600;
+    color: #ffffff;
 }
-.navbar{
+
+.navbar {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #ffffff;
     display: inline-block;
 }
-.navbar li{
-    float:left;
-    list-style: none; 
+
+.navbar li {
+    float: left;
+    list-style: none;
     margin: 13px 20px;
+}
+
+.navbar ul {
+    float: right;
+}
+
+.read-button {
+    border-radius: 25px;
+    background-color: #303f9f;
+    font-size: larger;
+    color: #ffffff;
+    height: 51px;
+    width: 192px;
+    border: none;
+}
+
+.header-content {
+    text-align: center;
+    padding: 40px;
+}
+
+.centeral-content {
+    display: block;
 }

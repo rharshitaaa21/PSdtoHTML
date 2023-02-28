@@ -15,9 +15,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Playfair+Display:ital@1&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <!-- <link rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" /> 
 
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -25,9 +25,9 @@
 <body>
 
   <!-- topbar -->
-  <div>
-    <header>
-      <div id="topbar">
+  <div class="centeral-header">
+    
+      <div class="topbar">
         <div id="social-icons" class="header-icons">
           <i class="fa fa-facebook" aria-hidden="true"></i>
           <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -38,33 +38,40 @@
           <i class="fa fa-dribbble" aria-hidden="true"></i>
           <i class="fa fa-instagram" aria-hidden="true"></i>
         </div>
-        <div id="side-icons" class="header-icons">
-          <a>
+        <div class="navbar-right-icons" >
+          <div class="left-material">
             <i class="material-icons" style="font-size: 19px">account_circle</i>
-            &nbsp;SIGN IN</a>
+          &nbsp; <span style="font-size: 12px; left: -1px; position:relative;">SIGN IN </span></div>
           <div class="vertical-line"></div>
 
-          <a class="right-material">
-            <i class="material-icons" style="font-size: 19px">language</i>&nbsp;ENG
-            <i class="material-icons" style="font-size: 19px">expand_more</i>
+          <div class="right-material">
+            <i class="material-icons" style=" left:-1px;font-size: 19px;position: relative;">language</i>
+            &nbsp; <span style="font-size: 11px; position: inherit; top: 1px;">ENG</span>
+            <i class="material-icons" style="font-size: 19px;">expand_more</i>
+          </div>
           </a>
         </div>
-      </div>
 
-    </header>
+<!-- 
+<div class="navbar-right-icons">
+  <div class="nav-left-content">
+    <span> <i class="material-icons" style="font-size: 19px">account_circle</i></span>
+    <span>SIGN IN</span>
   </div>
+  <div class="vertical-line"></div>
+  <div class="nav-right-content">
+    <i class="material-icons" style="font-size: 19px">language</i>
+    <span>ENG</span>
+    <i class="material-icons" style="font-size: 19px">expand_more</i>
 
+  </div> -->
+</div>
 
-  <!-- navigationbar-->
-
-
-
-
-
+      </div>
+    </div>
 
 <!--  main header -->
   <div class="main-header" style=" background-image: url('images/headermain.png'); background-repeat: none">
-
     
     <div class="pasco">PASCO</div>
 
@@ -90,29 +97,25 @@
         <li><a > <i class="material-symbols-outlined">
           shopping_cart
         </i></a></li>
-  
-
-
 
     </ul>
 
-    <div class = "arrow-icons">
-      <a > <i class="material-symbols-outlined">
+    <div class="centeral-content" >
+  
+      <a class = "arrow-left"> <i class="material-symbols-outlined">
         arrow_back_ios
       </i></a>
-      <div >
-        <div style="color: #bdbdbe;"> INSPIRATION</div>
+      <div class="header-content" >
+        
+        <div style="color: #bdbdbe; font-family:  'Montserrat', sans-serif;"> INSPIRATION</div>
         <div class="middle-heading">5 WAYS MILLENNIALS CAN START <br> BUILDING THEIR FUTURE TODAY</div>
-      <button style="border-radius: 10px; background-color: #303f9f; color: #ffffff;">READ MORE</button>      </div>
-      <a > <i class="material-symbols-outlined">
+      <button class="read-button">READ MORE</button>      </div>
+      <a  class = "arrow-right"> <i class="material-symbols-outlined">
         arrow_forward_ios
       </i></a>
       </div>
+    </div>
       
     </div>
-  </div>
 </body>
-
-
-
 </html>

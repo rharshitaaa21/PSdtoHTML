@@ -90,16 +90,15 @@ body {
 }
 
 .main-header {
-    height: 800px;
-    background-image: url('../images/headermain.png');
-     background-repeat: none;
+    height: 100%;
+    background-image: url(../images/headermain.png);
+    background-repeat: no-repeat;
 }
 .navlist{
-    
     width: 1170px;
     color: #ffffff;
-   
-    display: flex;  
+    display: flex;
+    gap: 52px;
 
 }
 .arrow-left {
@@ -139,9 +138,7 @@ body {
 .navbar {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    color: #ffffff;
     font-size: 15px;
-    display: inline-block;
 }
 
 .navbar li {
@@ -154,7 +151,23 @@ body {
 .navbar ul {
     float: right;
 }
-
+.icon-container{
+    display: flex;
+    font-size: 15px;
+}
+.features{
+    margin-right: 12px ;
+}
+.search-icon{
+    font-size: 15px;
+}
+.favourite-icon{
+    font-size: 15px;
+    
+}
+.shoppingcart-icon{
+    font-size: 15px;
+}
 .read-button {
     border-radius: 25px;
     background-color: #303f9f;

@@ -4,6 +4,7 @@
     display: flex;
 
 }
+ 
 .account-circle{
     font-size: 19px;
 }
@@ -89,9 +90,18 @@ body {
 }
 
 .main-header {
-    height: 900px;
+    height: 800px;
+    background-image: url('../images/headermain.png');
+     background-repeat: none;
 }
+.navlist{
+    align-items: center;
+    width: 1170px;
+    color: #ffffff;
+    justify-content: space-between;
+    display: flex;  
 
+}
 .arrow-left {
     color: #ffffff;
     float: left;
@@ -109,10 +119,19 @@ body {
     font-weight: 900;
     font-size: 35px;
 }
+.top-navigation{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
 .pasco {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 2px;
+    float: left;
+    margin-top: -58px;
     color: #ffffff;
 }
 
@@ -120,6 +139,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #ffffff;
+    font-size: 12px;
     display: inline-block;
 }
 

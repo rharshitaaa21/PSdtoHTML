@@ -95,10 +95,10 @@ body {
      background-repeat: none;
 }
 .navlist{
-    align-items: center;
+    
     width: 1170px;
     color: #ffffff;
-    justify-content: space-between;
+   
     display: flex;  
 
 }
@@ -130,23 +130,25 @@ body {
     font-weight: 700;
     font-size: 25px;
     letter-spacing: 2px;
-    float: left;
-    margin-top: -58px;
+    margin-top: 15px;
+    margin-right: 23px;
     color: #ffffff;
+
 }
 
 .navbar {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 15px;
     display: inline-block;
 }
 
 .navbar li {
     float: left;
     list-style: none;
-    margin: 13px 20px;
+    margin: 11px 10px;
+
 }
 
 .navbar ul {

@@ -208,3 +208,27 @@ body {
       margin-left: 14px;  
 
 }
+.image-content
+{
+    display: inline-block;
+    width: 100%;
+}
+.left-arrow-container
+{
+    float: left;
+    margin-top: 410px;
+    color: #ffffff;
+    margin-left: 42px;
+}
+.right-arrow-container
+{ float: right;
+    margin-top: 130px;
+    color: #ffffff;
+    margin-right: 42px;
+
+}
+.centeral-container
+{
+    display: grid;
+    justify-items: center;
+}

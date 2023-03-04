@@ -43,7 +43,7 @@ font {
 
 }
 
-.vertical-line {
+.vertical-line-topbar {
     border-left: 1px solid #6c6c6c;
     height: 20px;
     margin-right: 13px;
@@ -156,7 +156,9 @@ body {
 }
 
 .right-icon-container{
-    font-size: 18px;
+    font-size: 19px;
+    margin-top: 2px;
+
 }
 .read-button {
     border-radius: 25px;
@@ -180,8 +182,29 @@ body {
 .left-icon-container li{
     margin: 11px 10px;
 }
-.right-icon-container .vertical-line{
-    margin-right: 10px;
-    margin-left: 10px;
+.vertical-line-navbar
+{
+    border-left: 1px solid #6c6c6c;
+    height: 30px;
+   
+
+}
+.right-icon-container .vertical-line-navbar{
+ font-size: 20px;
+}
+.search-icon{
+    margin-top: 3px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.favourite-icon
+{        margin-left: 13px;
+    margin-right: 12px;
 }
 
+.shoppingcart-icon
+{
+    font-size: 22px;
+      margin-left: 14px;  
+
+}

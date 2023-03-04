@@ -91,14 +91,15 @@ body {
 
 .main-header {
     height: 100%;
-    background-image: url(../images/headermain.png);
-    background-repeat: no-repeat;
+    background-image: url('../images/headermain.png');
+     background-repeat: no-repeat;
 }
 .navlist{
+    
     width: 1170px;
     color: #ffffff;
-    display: flex;
-    gap: 52px;
+   
+    display: flex;  
 
 }
 .arrow-left {
@@ -130,7 +131,7 @@ body {
     font-size: 25px;
     letter-spacing: 2px;
     margin-top: 15px;
-    margin-right: 23px;
+    margin-right: 73px;
     color: #ffffff;
 
 }
@@ -138,35 +139,24 @@ body {
 .navbar {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 14px;
+    display: flex;
 }
 
 .navbar li {
     float: left;
     list-style: none;
-    margin: 11px 10px;
-
+    /* margin: 11px 10px; */
 }
 
 .navbar ul {
     float: right;
 }
-.icon-container{
-    display: flex;
-    font-size: 15px;
-}
-.features{
-    margin-right: 12px ;
-}
-.search-icon{
-    font-size: 15px;
-}
-.favourite-icon{
-    font-size: 15px;
-    
-}
-.shoppingcart-icon{
-    font-size: 15px;
+
+.right-icon-container{
+    font-size: 18px;
 }
 .read-button {
     border-radius: 25px;
@@ -186,3 +176,12 @@ body {
 .centeral-content {
     display: block;
 }
+
+.left-icon-container li{
+    margin: 11px 10px;
+}
+.right-icon-container .vertical-line{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+

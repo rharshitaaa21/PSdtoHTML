@@ -162,16 +162,17 @@ body {
 
 }
 .read-button {
-    margin-right: 30px;
+    
+    margin-right: 40px;
     margin-top: 20px;
     border-radius: 30px;
     background-color: #303f9f;
-    font-size: 17px;
+    font-size: 15px;
     padding: 5px;
     letter-spacing: 1px;
     color: #ffffff;
     height: 45px;
-    width: 180px;
+    width: 170px;
     border: none;
     font-family: 'Montserrat', sans-serif;
 }

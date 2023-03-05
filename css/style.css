@@ -113,7 +113,7 @@ body {
 
 }
 
-.middle-heading {
+.millennial-container {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
@@ -175,8 +175,10 @@ body {
     padding: 40px;
 }
 
-.centeral-content {
-    display: block;
+.centeral-container {
+    display: grid;
+    justify-items: center;
+    margin-top: 210px;
 }
 
 .left-icon-container li{
@@ -186,8 +188,6 @@ body {
 {
     border-left: 1px solid #6c6c6c;
     height: 30px;
-   
-
 }
 .right-icon-container .vertical-line-navbar{
  font-size: 20px;
@@ -231,4 +231,20 @@ body {
 {
     display: grid;
     justify-items: center;
+}
+.inspiration-container{
+    margin-right: 40px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #bdbdbe;
+    font-family: 'Montserrat', sans-serif;
+}
+.millennial-container{
+    margin-top: 10px;
+    color: #ffffff;
+    margin-right: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    letter-spacing: 2px;
 }

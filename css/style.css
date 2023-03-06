@@ -10,25 +10,28 @@ font {
     display: flex;
 
 }
- 
-.account-circle{
+
+.account-circle {
     font-size: 19px;
 }
 
-.sign-in-icon{
+.sign-in-icon {
     font-size: 12px;
     margin-right: 17px;
 }
-.language-icon{
+
+.language-icon {
     font-size: 19px;
     margin-right: 7px;
 }
-.eng-icon{
+
+.eng-icon {
     margin-left: -6px;
     font-size: 11px;
     margin-top: 2px;
 }
-.expand-more-icon{
+
+.expand-more-icon {
     font-size: 19px;
     margin-right: -5px;
 }
@@ -78,6 +81,7 @@ i.material-icons {
 body {
     margin: 0;
 }
+
 .left-material {
     display: flex;
     align-items: center;
@@ -91,18 +95,21 @@ body {
 }
 
 .main-header {
-    height: 100%;
+    height: 800px;
     background-image: url('../images/headermain.png');
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
 }
-.navlist{
-    
+
+.navlist {
+
     width: 1170px;
     color: #ffffff;
-   
-    display: flex;  
+    display: flex;
 
 }
+
 .arrow-left {
     color: #ffffff;
     float: left;
@@ -120,7 +127,8 @@ body {
     font-weight: 900;
     font-size: 35px;
 }
-.top-navigation{
+
+.top-navigation {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -149,22 +157,23 @@ body {
 .navbar li {
     float: left;
     list-style: none;
-   
+
 }
 
 .navbar ul {
     float: right;
 }
 
-.right-icon-container{
+.right-icon-container {
     font-size: 19px;
     margin-top: 2px;
 
 }
+
 .read-button {
-    
+
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 27px;
     border-radius: 30px;
     background-color: #303f9f;
     font-size: 15px;
@@ -182,83 +191,241 @@ body {
     padding: 40px;
 }
 
-.centeral-container {
+.centeral-container {margin-left: 48px;
     display: grid;
     justify-items: center;
-    margin-top: 210px;
+    margin-top: 208px;
 }
 
-.left-icon-container li{
+.left-icon-container li {
     margin: 11px 10px;
 }
-.vertical-line-navbar
-{
+
+.vertical-line-navbar {
     border-left: 1px solid #6c6c6c;
     height: 30px;
 }
-.right-icon-container .vertical-line-navbar{
- font-size: 20px;
+
+.right-icon-container .vertical-line-navbar {
+    font-size: 20px;
 }
-.search-icon{
+
+.search-icon {
     margin-top: 3px;
     margin-right: 15px;
     margin-left: 5px;
 }
-.favourite-icon
-{        margin-left: 13px;
+
+.favourite-icon {
+    margin-left: 13px;
     margin-right: 12px;
 }
 
-.shoppingcart-icon
-{
+.shoppingcart-icon {
     font-size: 22px;
-      margin-left: 14px;  
+    margin-left: 14px;
 
 }
-.image-content
-{
+
+.image-content {
     display: inline-block;
     width: 100%;
 }
-.left-arrow-container
-{
+
+.left-arrow-container {
+    font-size: 22px;
     float: left;
-    margin-top: 410px;
+    margin-top: 305px;
     color: #ffffff;
     margin-left: 42px;
 }
-.right-arrow-container
-{ float: right;
-    margin-top: 45px;
+
+.right-arrow-container {
+    float: right;
+    margin-top: -105px;
     color: #ffffff;
     margin-right: 42px;
+    font-size: 22px
+}
 
-}
-.centeral-container
-{
-    display: grid;
-    justify-items: center;
-}
-.inspiration-container{
+.inspiration-container {
     margin-right: 40px;
     letter-spacing: 1px;
     font-size: 20px;
     color: #bdbdbe;
     font-family: 'Montserrat', sans-serif;
 }
-.heading-container{
+
+.heading-container {
     margin-top: 10px;
     color: #ffffff;
     margin-right: 25px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
-    
-    
+
+
 }
-.millennial-container{letter-spacing: 2px; font-size: 42px;}
-.future-container{letter-spacing: 1px;
+
+.millennial-container {
+    letter-spacing: 2px;
+    font-size: 42px;
+}
+
+.future-container {
+    margin-top: -8px;
+    letter-spacing: 1px;
     font-size: 42px;
     align-items: center;
     display: flex;
     justify-content: center;
+}
+.authordetails-container{
+    margin-top: 77px;
+   
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.henry-container {
+    margin-top: 13px;
+    display: flex;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    justify-content: center;
+    color: #fbfbfb;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.date-container{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    margin-left: 7px;
+    margin-top: 10px;
+    color: #908f90;
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: center;
+}
+
+.bg-author-image{
+    display: flex;
+    justify-content: center;
+    /* float: right;
+*/
+}
+.comments-container {
+    margin-top: 35px;
+    width: 260px;
+    color: #bebebe;
+    font-weight: 800;
+    font-size: 10px;
+   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-around;
+}
+
+.comment{font-size: 18px;}
+.like{font-size: 18px;}
+
+.comment-icon{
+    display: flex;
+    font-size: 12px;
+}
+.like-icon{
+    display: flex;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sortblog-container {
+    justify-content: space-around;
+    display: flex;
+    background-color: #ffffff;
+    height: 60px;
+    align-items: center;
+}
+
+.sortblog-list {
+    width: 1170px;
+    list-style: none;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #202020;
+
+}
+
+.sortblog-list li {
+
+    /* margin-top: 25px; */
+    justify-content: center;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+
+.sortblog-container li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px;
+
+}
+
+.sortblog-list ul {
+    margin: 0;
+}
+
+.all-container{
+   color:    #727fc9;
+    border: 1px solid #727fc9;
+    border-radius: 25px;
+    height: 35px;
+    
+    margin-top: 15px;
+}
+
+.sort-container .sortblog-list {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 59px;
+    color: #212121;
+    font-weight: 800;
+}
+
+.sort-container {
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 25px;
+    float: right;
+}
+ul.list-container{
+    margin: 0;
 }

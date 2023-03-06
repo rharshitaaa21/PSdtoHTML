@@ -95,7 +95,7 @@ body {
 }
 
 .main-header {
-    height: 800px;
+    height: 900px;
     background-image: url('../images/headermain.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -317,7 +317,7 @@ body {
 */
 }
 .comments-container {
-    margin-top: 35px;
+    margin-top: 32px;
     width: 260px;
     color: #bebebe;
     font-weight: 800;
@@ -339,36 +339,95 @@ body {
 .like-icon{
     display: flex;
     font-size: 12px;
+    margin-right: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sortblog-container {
+.btn-list-container {
     justify-content: space-around;
     display: flex;
     background-color: #ffffff;
     height: 60px;
     align-items: center;
 }
+
+.list-container{
+    display: flex;
+}
+
+
+.sort-blog{
+    display: inline;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+
+.inner-container{
+    
+    width: 1170px;
+    display: flex;
+    align-items: center;
+}
+
+.all-container{
+    font-size: 10px;
+    color: #727fc9;
+    border: 1px solid #727fc9;
+    height: 29px;
+    width: 80px;
+border-radius: 25px;
+}
+.list-button-container{
+    border: none;
+    height: 29px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 
 .sortblog-list {
     width: 1170px;
@@ -381,7 +440,7 @@ body {
 
 .sortblog-list li {
 
-    /* margin-top: 25px; */
+    /* margin-top: 25px; 
     justify-content: center;
     float: left;
     font-size: 10px;
@@ -428,4 +487,5 @@ body {
 }
 ul.list-container{
     margin: 0;
-}
+} 
+*/

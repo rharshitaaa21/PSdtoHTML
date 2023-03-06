@@ -391,7 +391,7 @@ body {
 }
 
 .all-container{
-    font-size: 13px;
+    font-size: 15px;
     color: #727fc9;
     border: 1px solid #727fc9;
     height: 29px;
@@ -410,7 +410,10 @@ body {
         border-radius: 25px;
         /* letter-spacing: 1px;*/
 }
-
+.horizontal-break{
+   
+    border: 2px solid #e6e6e6;
+}
 
 
 

@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round";
 font {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -19,6 +20,12 @@ font {
     
     font-size: 12px;
     margin-right: 16px;
+}
+
+.home{
+    display: flex;
+    border-bottom: 5px solid #ff4081;
+    margin-top: 20px;
 }
 
 .language-icon {
@@ -126,13 +133,13 @@ body {
 .activebar {
     border: 2.5px solid #ff4081;
     width: 75px;
-    margin-left: 462px;
+   
     margin-top: -8px;
 }
 
 .millennial-container {
     color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 35px;
 }
@@ -165,8 +172,8 @@ body {
 
 .navbar li {
     float: left;
+    height: 47px;
     list-style: none;
-
 }
 
 .navbar ul {

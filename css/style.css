@@ -16,8 +16,9 @@ font {
 }
 
 .sign-in-icon {
+    
     font-size: 12px;
-    margin-right: 17px;
+    margin-right: 16px;
 }
 
 .language-icon {
@@ -36,7 +37,6 @@ font {
     margin-right: -5px;
 }
 
-
 .topbar {
     align-items: center;
     width: 1170px;
@@ -50,7 +50,7 @@ font {
 .vertical-line-topbar {
     border-left: 1px solid #6c6c6c;
     height: 20px;
-    margin-right: 13px;
+    margin-right: 14px;
     margin-top: 2px;
 }
 
@@ -60,6 +60,7 @@ font {
     color: #6c6c6c;
     display: flex;
     gap: 14.5px;
+    margin-left: 1px;
     margin-top: 2px;
 
 }
@@ -661,5 +662,6 @@ color: #191919;
     
   
     border: 1px solid #e0e0e0;
-    margin-top: 10px;
+    margin-top: 14px;
+    
 }

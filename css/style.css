@@ -196,18 +196,20 @@ body {
 
 .read-button {
 
-    margin-right: 44px;
+    margin-right: 42px;
     margin-top: 28px;
     border-radius: 30px;
     background-color: #303f9f;
     font-size: 17px;
-    padding: 5px;
+    font-weight: 400;
+    padding-left: 7;
     letter-spacing: 1px;
     color: #ffffff;
-    height: 44px;
+    height: 46px;
     width: 170px;
     border: none;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .header-content {
@@ -321,21 +323,22 @@ body {
     display: flex;
     font-size: 13px;
     letter-spacing: 1px;
-    font-weight: 800;
+    font-weight: 700;
     justify-content: center;
     color: #fbfbfb;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .date-container {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 12px;
     margin-top: 10px;
     color: #908f90;
     display: flex;
     letter-spacing: 1px;
-    justify-content: center;
+    justify-content: center
 }
 
 .bg-author-image {

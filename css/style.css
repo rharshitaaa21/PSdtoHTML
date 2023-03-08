@@ -109,15 +109,14 @@ body {
     font-weight: 400;
 }
 
-.main-header {
-    /* height: 900px;  */
+.main-header { 
     background-image: url(../images/headermain.png);
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 66px;
-    /* justify-content: center; */
-}
+    padding-bottom: 62px;
+    /* justify-content: center;*/
 
+}
 .navlist {
 
     width: 1170px;
@@ -360,7 +359,7 @@ body {
 .comments-container {
 
     margin-right: 8px;
-    margin-top: 32px;
+    margin-top: 33px;
     width: 260px;
     color: #bebebe;
     font-weight: 800;
@@ -411,11 +410,13 @@ body {
 
 
 .sort-blog {
+    margin-top: 3px;
+    /* font-style: bold; */
     display: inline;
-    font-size: 10px;
-    margin-left: 2px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-size: 9px;
+    margin-left: 1px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold; */
     letter-spacing: 1px;
     font-weight: 800;
 }
@@ -431,25 +432,32 @@ body {
 }
 
 .all-container {
-    font-size: 15px;
+    /* font-size: 15px; */
     color: #727fc9;
     border: 1px solid #727fc9;
     height: 29px;
     letter-spacing: 1px;
     width: 80px;
+    font-weight: 700;
+    margin-left: 4px;
     font-size: 10px;
     border-radius: 25px;
+
 }
 
+.buttons{ 
+    gap: 15px;
+    display: flex;
+}
 .list-button-container {
-    font-size: 12px;
+    font-size: 8px;
     color: #373737;
     border: none;
     height: 29px;
     padding: 10px 25px 10px 25px;
     /* font-size: 12px; */
     border-radius: 25px;
-    font-weight: 700px;
+    font-weight: 700;
     /* letter-spacing: 1px;*/
 }
 

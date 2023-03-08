@@ -538,29 +538,29 @@ body {
     display: inline;
     color: #ffffff;
     font-family: 'Monteserrat', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
 
 }
 
 .caption {
-
     float: left;
-    margin-top: 155px;
-    margin-left: 15px;
+    margin-top: 150px;
+    margin-left: 18px;
 }
 
 .activity {
     float: right;
     display: flex;
-    margin-top: 156px;
+    margin-top: 146px;
     margin-right: 20px;
+
 
 
 }
 
 .comments {
     display: flex;
-    margin-right: 23px;
+    margin-right: 20px;
     align-items: center;
 }
 

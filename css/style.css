@@ -348,6 +348,15 @@ body {
 
 }
 
+
+.material-symbols-outlined .like {
+  font-variation-settings:
+  'FILL'0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 .comments-container {
 
     margin-right: 8px;
@@ -363,19 +372,20 @@ body {
 }
 
 .comment {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .like {
-    font-size: 18px;
+    font-size: 17px;
     margin-top: -1px
 }
 
 .comment-icon {
+    
     display: flex;
     margin-top: 1px;
     font-size: 12px;
-    margin-right: 2px;
+    margin-right: 4px;
 
 }
 

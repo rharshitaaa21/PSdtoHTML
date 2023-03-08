@@ -20,12 +20,19 @@ font {
     
     font-size: 12px;
     margin-right: 16px;
+    font-weight: 400;
 }
 
 .home{
+    
+    
+    padding-left: 13px;
+    /* margin-left: 50px; */
+    /* width: 100px; */
     display: flex;
     border-bottom: 5px solid #ff4081;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+
 }
 
 .language-icon {
@@ -137,6 +144,7 @@ body {
     margin-top: -8px;
 }
 
+
 .millennial-container {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -149,14 +157,14 @@ body {
     display: flex;
     justify-content: center;
 }
-
-.pasco {
+/* margin-right:73px */
+.pasco {    
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 25px;
     letter-spacing: 2px;
-    margin-top: 15px;
-    margin-right: 73px;
+    margin-top: 14px;
+    margin-right: 61px;
     color: #ffffff;
 
 }
@@ -172,7 +180,7 @@ body {
 
 .navbar li {
     float: left;
-    height: 47px;
+    height: 41px;
     list-style: none;
 }
 
@@ -216,6 +224,7 @@ body {
 
 .left-icon-container li {
     margin: 11px 10px;
+   
 }
 
 .vertical-line-navbar {

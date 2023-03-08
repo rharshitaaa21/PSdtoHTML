@@ -712,3 +712,42 @@ color: #191919;
     border: 1px solid #e0e0e0;
     margin-top: 4px;
 }
+
+.card2-image{
+
+    background-image: url(../images/card2-image.png);
+    width: 396px;
+    background-repeat: no-repeat;
+    
+
+}
+.play-cards-container{
+    font-size: 52px;
+    margin-top: 58px;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    /* align-items: center;*/
+}
+.card2-image-activity{
+    display: inline;
+    color: #ffffff;
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 13px;
+}
+.card2-caption{
+    
+    float: left;
+    margin-top: 25px;
+    margin-left: 17px;
+
+}
+.card2-activity{
+    
+    float: right;
+    display: flex;
+    margin-top: 22px;
+    margin-right: 20px;
+
+
+}

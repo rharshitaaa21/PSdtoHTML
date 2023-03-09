@@ -488,6 +488,7 @@ align-items: center;
 
 width: 1170px;
 display: flex;
+gap: 44px;
 }
 .centeral-card {
     display: flex;
@@ -504,6 +505,7 @@ display: flex;
        /* margin-left: 260px; */
        width: 820px;
        margin-top: 27px;
+       /* margin-right: ; */
     
 }
 .image1{
@@ -785,4 +787,9 @@ color: #191919;
     background-repeat: no-repeat;
     
 
+}
+.righthand-container{
+    background-color: #ffffff;
+    width: 394px;
+    height: 200px;
 }

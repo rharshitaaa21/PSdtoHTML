@@ -483,7 +483,7 @@ body {
 
 .centeral-division
 {
-align-items: center;
+align-items: start;
 /* justify-content: space-around; */
 
 width: 1170px;
@@ -792,4 +792,7 @@ color: #191919;
     background-color: #ffffff;
     width: 394px;
     height: 200px;
+}
+.searchbar{
+    background-color: #f5f5f5;
 }

@@ -151,7 +151,7 @@ body {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    margin-left: 20px;
+    margin-left: 8px;
     font-size: 40px;
 
 }
@@ -202,7 +202,7 @@ body {
 .read-button {
 
     margin-right: 42px;
-    margin-top: 28px;
+    margin-top: 30px;
     border-radius: 30px;
     background-color: #303f9f;
     font-size: 17px;
@@ -283,7 +283,7 @@ body {
 } */
 
 .inspiration-container {
-    margin-right: 40px;
+    margin-right: 42px;
     /* letter-spacing: 1px; */
     font-size: 21px;
     font-weight: 400;
@@ -296,24 +296,23 @@ body {
     margin-top: 14px;
     color: #ffffff;
     letter-spacing: 2px;
-    margin-right: 35px;
+    margin-right: 44px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 
 }
 
-.millennial-container {
-    letter-spacing: 2px;
-    font-size: 42px;
-}
+
 
 .future-container {
-    /* margin-top: -8px; */
-    letter-spacing: 1px;
-    font-size: 42px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+   
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 4px;
+    margin-left: 32px;
+    font-size: 40px;
 }
 
 .authordetails-container {

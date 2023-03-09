@@ -318,8 +318,9 @@ body {
 }
 
 .henry-container {
-    margin-top: 26px;
-    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 91px;
     /* display: flex; */
     font-size: 13px;
     letter-spacing: 1px;
@@ -330,30 +331,36 @@ body {
 
 }
 
+.henry-image1{
+    /* margin-bottom: -1px; */
+    margin-top: 27px;
+    margin-left: 10px;
+    /* display: flex; */
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    justify-content: center;
+    color: #4e4e4e;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .card1-date-container {
+   
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
-    margin-left: 8px;
+    margin-left: 9px;
     color: #908f90;
     display: flex;
     letter-spacing: 1px;
-    justify-content: center;}
+    justify-content: center;
+}
 
 .bg-author-image {
     height: 55px;
     display: flex;
     justify-content: center;
 
-}
-
-
-.material-symbols-outlined .like {
-  font-variation-settings:
-  'FILL'0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
 }
 
 .comments-container {

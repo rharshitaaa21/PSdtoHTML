@@ -825,18 +825,23 @@ body {
 
 .righthand-container {
 
-    background-color: #ffffff;
-    width: 394px;
+    /* color: #989898; */
     margin-top: 27px;
-    display: grid;
-    gap: 30px;
+    font-family: 'Open-Sans', sans-serif;
+    /* width: 265px; */
+    float: left;
+    background-color: #ffffff;
+    left: 44px;
+    margin-left: 23px;
 
 }
 
 .searchbar {
+   
+    
     background-color: #f5f5f5;
     width: 263px;
-    padding: 5px;
+    padding: 3px;
     display: flex;
     margin-left: 30px;
     margin-top: 25px;
@@ -844,26 +849,27 @@ body {
     border-radius: 25px;
     border: 2px solid #ffffff;
     float: right;
+
 }
 
 .searchbar-container {
 
     color: #989898;
-    margin-top: 4px;
+    margin-top: 8px;
     font-family: 'Open-Sans', sans-serif;
     /* width: 265px; */
     float: left;
     left: 44px;
-    margin-left: 12px;
-
+    margin-left: 23px;
 }
 
 .coloured-searchicon {
+    
     color: #ffffff;
     background-color: #ff4081;
     float: right;
+    font-size: 34px;
     border-radius: 25px;
-
 }
 
 .blankspace {
@@ -873,8 +879,9 @@ body {
 }
 
 .widgets {
-    margin-left: 44px;
+    margin-left: 40px;
     gap: 10px;
+    letter-spacing: 1px;
     font-size: 13px;
     display: grid;
 }

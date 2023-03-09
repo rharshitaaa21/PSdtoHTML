@@ -751,3 +751,17 @@ color: #191919;
 
 
 }
+.card3-image{
+     
+    background-image: url(../images/card3-image.png);
+    width: 396px;
+    background-repeat: no-repeat;
+}
+.card4-image{
+
+    background-image: url(../images/card4-image.png);
+    width: 396px;
+    background-repeat: no-repeat;
+    
+
+}

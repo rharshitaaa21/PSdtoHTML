@@ -1040,3 +1040,13 @@ font-weight: 800;
     margin-right: 16px;
 
 }
+.hcard-author-details
+{
+    
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    margin-top: 14px;
+    font-family: 'Montserrat', sans-serif;
+
+}

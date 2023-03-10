@@ -764,6 +764,12 @@ body {
     font-size: 20px;
 }
 
+.card-dotcontainer{
+    
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 46px;
+}
 .card-divider {
 
     border: 1px solid #e0e0e0;
@@ -933,8 +939,9 @@ font-weight: 800;
 
 .horizontal-card{
     
+    
     display: flex;
-    height: 500px;
+    /* height: 423px; */
     justify-content: space-between;
 }
 
@@ -943,7 +950,37 @@ font-weight: 800;
     background-color: #ffffff;
 }
 .hcard1-image{
+    width: 258px;
+    height: 159px;
     
+    background-image: url(../images/hcard1-image.png);
+    background-repeat: no-repeat;
+}
+.hcard2-image{
+    
+    width: 258px;
+    height: 159px;
+    
+    background-image: url(../images/hcard2-image.png);
+    background-repeat: no-repeat;
+}
+
+.hcard3-image{
+    
+    width: 258px;
+    height: 159px;
+    
+    background-image: url(../images/hcard3-image.png);
+    background-repeat: no-repeat;
+}
+
+.hcard2-details
+{
+    
+    padding-top: 103px;
+}
+.hcard5-image{
+    background-image: url('../images/hcard3-image.png');
     background-repeat: no-repeat;
 }
 
@@ -959,7 +996,7 @@ font-weight: 800;
 }
 .h1-bold {
     line-height: 22px;
-    margin-top: 10px;
+    margin-top: 13px;
     margin-left: 19px;
    
     font-size: 14px;
@@ -969,12 +1006,37 @@ font-weight: 800;
 .h1-regular{
    
     letter-spacing: 1px;
-    margin-top: 12px;
+    margin-top: 11px;
     font-family: 'Open-Sans',sans-serif;
     font-size: 13px;
     word-spacing: 3px;
     line-height: 20px;
     margin-left: 19px;
     margin-bottom: 25px;
+
+}
+.hcard-playbtn{
+  
+    padding-top: 55px;
+    display: flex;
+    font-size: 48px;
+    justify-content: center;
+    /* margin-left: 88px; */
+    color: #FFFFFF;
+    /* align-items: center;*/
+}
+.hcard-caption
+{        
+    float: left;
+    margin-top: 28px;
+    margin-left: 17px;
+
+}
+.hcard-activity{
+    
+    float: right;
+    display: flex;
+    margin-top: 25px;
+    margin-right: 16px;
 
 }

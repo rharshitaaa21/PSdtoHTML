@@ -16,13 +16,44 @@ font {
 .account-circle {
     font-size: 19px;
 }
+.left-atag{
+    gap: 4px;
+    display: flex;
+    line-height: 23px;}
+.right-atag{
+    
+    margin-bottom: 2px;
+    display: flex;
+    gap: 5px;
+    
+}
 
 .sign-in-icon {
 
     font-size: 12px;
-    margin-right: 16px;
-    font-weight: 400;
+    /* margin-right: 16px;
+    font-weight: 400; */
 }
+
+.language-icon {
+    
+    font-size: 19px;
+    margin-bottom: 1px;
+}
+
+.eng-icon {
+   
+   
+    margin-top: 3px;
+    font-size: 12px;
+    margin-right: -2px;
+}
+
+.expand-more-icon {
+    font-size: 20px;
+    /* margin-right: -5px; */
+}
+
 
 .home {
 
@@ -34,22 +65,6 @@ font {
     border-bottom: 5px solid #ff4081;
     /* margin-top: 20px; */
 
-}
-
-.language-icon {
-    font-size: 19px;
-    margin-right: 7px;
-}
-
-.eng-icon {
-    margin-left: -6px;
-    font-size: 11px;
-    margin-top: 2px;
-}
-
-.expand-more-icon {
-    font-size: 19px;
-    margin-right: -5px;
 }
 
 .topbar {
@@ -65,12 +80,12 @@ font {
 .vertical-line-topbar {
     border-left: 1px solid #6c6c6c;
     height: 20px;
-    margin-right: 14px; 
+    /* margin-right: 14px;  */
     margin-top: 2px;
 }
 
 .social-icons {
-    float: left;
+    /* float: left; */
     font-size: 17px;
     color: #6c6c6c;
     display: flex;
@@ -82,32 +97,39 @@ font {
 
 .navbar-right-icons {
 
+    margin-top: 3px;
+    gap: 14px;
     font-family: 'Montserrat', sans-serif;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     color: #6c6c6c;
-
     display: flex;
 }
 
-i.material-icons {
+/* i.material-icons-modify {
     display: inline-flex;
     vertical-align: top;
-}
+} */
 
 body {
     margin: 0;
 }
 
 .left-material {
-    display: flex;
-    align-items: center;
-    left: 4px;
-}
+   
+    margin-top: 3px;
+    margin-right: 1px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* left: 4px; */
+} 
 
 .right-material {
+   
+    margin-right: -6px;
+    /* margin-bottom: 4px; */
     display: flex;
     align-items: center;
-    font-weight: 400;
+    /* font-weight: 400;*/
 }
 
 .main-header {

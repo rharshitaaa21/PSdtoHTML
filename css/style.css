@@ -91,6 +91,18 @@ display: flex;}
 
 }
 
+ a:active
+{ color: #707070;
+    outline: none;  
+    text-decoration: none; 
+}
+a:visited{
+    color: #707070;
+    outline: none;
+    text-decoration: none;
+}
+
+
 .navbar-right-icons {
 
     margin-top: 3px;
@@ -210,7 +222,7 @@ body {
 .read-button {
 
     margin-right: 43px;
-    margin-top: 26px;
+    margin-top: 27px;
     border-radius: 30px;
     background-color: #303f9f;
     font-size: 17px;
@@ -308,7 +320,7 @@ body {
 }
 
 .heading-container {
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     margin-top: 13px;
     color: #ffffff;
     letter-spacing: 1px;
@@ -447,56 +459,64 @@ body {
 
 
 .sort-blog {
-    margin-top: 3px;
-    /* font-style: bold; */
+    margin-top: 2px;
     display: inline;
-    font-size: 10px;
+    font-size: 11px;
+    word-spacing: 3px;
     margin-left: 1px;
     font-family: 'Montserrat', sans-serif;
     /* font-weight: bold; */
-    letter-spacing: 1px;
-    font-weight: 800;
+    
+
+    font-weight: 700;
 }
 
+.colon{
+    font-size: 18px;
+    font-weight: 800;
+    margin-right: 16px;
+
+}
 
 .inner-container {
    
+    margin-bottom: 1px;
     width: 1170px;
     display: flex;
     align-items: center;
-    gap: 14px;
-    margin-bottom: 1px;
 }
 
 .all-container {
-    /* font-size: 15px; */
-    color: #727fc9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #4859b8;
     border: 1px solid #727fc9;
-    height: 29px;
-    letter-spacing: 1px;
+    height: 30px;
+  
     width: 80px;
-    font-weight: 700;
+    font-weight: 600;
     margin-left: 4px;
-    font-size: 10px;
+    font-size: 12px;
     border-radius: 25px;
+    padding: 3px 4px 0px 0px;
 
 }
 
 .buttons {
-    gap: 15px;
+    gap: 17px;
     display: flex;
 }
 
 .list-button-container {
-    font-size: 12px;
     color: #373737;
     border: none;
     height: 29px;
-    padding: 10px 25px 10px 25px;
-    /* font-size: 12px; */
+    padding: 11px 25px 14px 26px;
+    font-size: 12px;
     border-radius: 25px;
     font-weight: 700;
-    /* letter-spacing: 1px;*/
+    /* letter-spacing: 1px; */
+
 }
 
 .horizontal-break {

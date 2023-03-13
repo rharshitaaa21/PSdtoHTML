@@ -17,14 +17,17 @@ font {
     font-size: 19px;
 }
 .left-atag{
+    
+    margin-bottom: 1px;
+    margin-right: 1px;
     gap: 4px;
     display: flex;
     line-height: 23px;}
+
 .right-atag{
     
     margin-bottom: 2px;
     display: flex;
-    gap: 5px;
     
 }
 
@@ -37,21 +40,28 @@ font {
 .language-icon {
     
     font-size: 19px;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
+    
 }
 
 .eng-icon {
    
    
+    margin-left: 4px;
     margin-top: 3px;
     font-size: 12px;
-    margin-right: -2px;
+
 }
 
 .expand-more-icon {
+  margin-left: 1px;
     font-size: 20px;
-    
+    margin-bottom: 1px;
+    width: 11px;
 }
+   
+
+
 
 .home{
     margin-bottom: 13px;
@@ -74,10 +84,11 @@ display: flex;}
 }
 
 .vertical-line-topbar {
+   
     border-left: 1px solid #6c6c6c;
-    height: 20px;
-  
-    margin-top: 4px;
+    height: 21px;
+    margin-top: 2px;
+
 }
 
 .social-icons {
@@ -91,15 +102,16 @@ display: flex;}
 
 }
 
- a:active
-{ color: #707070;
-    outline: none;  
-    text-decoration: none; 
-}
-a:visited{
+
+.social-icons a {
     color: #707070;
     outline: none;
     text-decoration: none;
+}
+.navbar-right-icons a{
+    color: #707070;
+    outline: none;
+    text-decoration: none; 
 }
 
 
@@ -120,13 +132,13 @@ body {
 .left-material {
    
     margin-top: 3px;
-    margin-right: 1px;
+ 
    
 } 
 
 .right-material {
    
-    margin-right: -7px;
+margin-top: 3px;
     display: flex;
     align-items: center;
 }

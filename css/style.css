@@ -541,10 +541,6 @@ cursor: pointer;
 
 
 .centeral-division {
-
-   
-    /* width: 820px; */
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -563,8 +559,7 @@ cursor: pointer;
 }
     
 .lefthand-container {
-    /* background-color: #ffffff; */
-    /* margin-left: 260px; */
+    margin-right: 3px;
     width: 820px;
     margin-top: 27px;
  

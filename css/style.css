@@ -232,7 +232,7 @@ margin-top: 3px;
 
 .favorite-border{ margin-top: 4x;}
 .read-button {
-
+cursor: pointer;
     margin-right: 43px;
     margin-top: 27px;
     border-radius: 30px;
@@ -370,7 +370,7 @@ margin-top: 3px;
    
     margin-bottom: 7px;
     margin-top: 15px;
-    margin-left: 86px;
+    margin-left: 72px;
     /* display: flex; */
     font-size: 13px;
     letter-spacing: 1px;
@@ -419,8 +419,9 @@ margin-top: 3px;
 
     
     margin-top: 33px;
-    width: 260px;
+    /* width: 260px; */
     color: #bebebe;
+    gap: 25px;
     font-weight: 800;
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -443,7 +444,7 @@ margin-top: 3px;
     display: flex;
     margin-top: 2px;
     font-size: 12px;
-    margin-right: 2px;
+    margin-right: 7px;
     gap: 6px;
 
 }
